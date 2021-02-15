@@ -1,0 +1,94 @@
+>>> Setup Complete
+# CSC 345 Project 2 - Test Input 001
+Q 511
+i 97 112
+	Visiting node (LL(0.0,0.0), UR(511.0,511.0))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 1, Total Number of Nodes(includes root) = 1<<<
+
+i 50 345
+	Visiting node (LL(0.0,0.0), UR(511.0,511.0))
+	Visiting node (LL(0.0,255.5), UR(255.5,511.0))
+	Visiting node (LL(0.0,0.0), UR(255.5,255.5))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 2, Total Number of Nodes(includes root) = 5<<<
+
+i 87 330
+	Visiting node (LL(0.0,0.0), UR(511.0,511.0))
+	Visiting node (LL(0.0,255.5), UR(255.5,511.0))
+	Visiting node (LL(0.0,255.5), UR(127.75,383.25))
+	Visiting node (LL(0.0,255.5), UR(127.75,383.25))
+	Visiting node (LL(0.0,319.375), UR(63.875,383.25))
+	Visiting node (LL(63.875,319.375), UR(127.75,383.25))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 3, Total Number of Nodes(includes root) = 13<<<
+
+i 198 370
+	Visiting node (LL(0.0,0.0), UR(511.0,511.0))
+	Visiting node (LL(0.0,255.5), UR(255.5,511.0))
+	Visiting node (LL(127.75,255.5), UR(255.5,383.25))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 4, Total Number of Nodes(includes root) = 13<<<
+
+r 50 50 300 300
+	Visiting quadrant (LL(0.0,0.0), UR(511.0,511.0))
+	Visiting quadrant (LL(0.0,0.0), UR(255.5,255.5))
+		Reporting data-point (97.0,112.0)
+	Visiting quadrant (LL(0.0,255.5), UR(255.5,511.0))
+	Visiting quadrant (LL(0.0,255.5), UR(127.75,383.25))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 4, Total Number of Nodes(includes root) = 13<<<
+
+i 310 100
+	Visiting node (LL(0.0,0.0), UR(511.0,511.0))
+	Visiting node (LL(255.5,0.0), UR(511.0,255.5))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 5, Total Number of Nodes(includes root) = 13<<<
+
+i 412 440
+	Visiting node (LL(0.0,0.0), UR(511.0,511.0))
+	Visiting node (LL(255.5,255.5), UR(511.0,511.0))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 6, Total Number of Nodes(includes root) = 13<<<
+
+c 0 0 511 511
+	Number of points in the query region is: 6
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 6, Total Number of Nodes(includes root) = 13<<<
+
+i 500 500
+	Visiting node (LL(0.0,0.0), UR(511.0,511.0))
+	Visiting node (LL(255.5,255.5), UR(511.0,511.0))
+	Visiting node (LL(383.25,383.25), UR(511.0,511.0))
+	Visiting node (LL(383.25,383.25), UR(511.0,511.0))
+	Visiting node (LL(383.25,383.25), UR(447.125,447.125))
+	Visiting node (LL(447.125,447.125), UR(511.0,511.0))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 7, Total Number of Nodes(includes root) = 21<<<
+
+i 310 220
+	Visiting node (LL(0.0,0.0), UR(511.0,511.0))
+	Visiting node (LL(255.5,0.0), UR(511.0,255.5))
+	Visiting node (LL(255.5,127.75), UR(383.25,255.5))
+	Visiting node (LL(255.5,0.0), UR(383.25,127.75))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 8, Total Number of Nodes(includes root) = 25<<<
+
+e 255 255 511 511
+	NO. This region is not empty.
+
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 8, Total Number of Nodes(includes root) = 25<<<
+
+i 410 100
+	Visiting node (LL(0.0,0.0), UR(511.0,511.0))
+	Visiting node (LL(255.5,0.0), UR(511.0,255.5))
+	Visiting node (LL(383.25,0.0), UR(511.0,127.75))
+>>>Status Line: Animation Status mode = ON, Total Number of Points = 9, Total Number of Nodes(includes root) = 25<<<
+
+# --- End Of Input ---
+> All Input Commands have been processed!
+
+============================Now entering user control mode===========================
+Press 'i' to turn on/off Insert Mode, 'r' to turn on/off Report Mode, 'c' to turn on/off Count Mode
+>You are in the Insert Mode now.
+
+>>> Hi There! Here are all the points!
+  o Reporting Data Point: (97,112)
+  o Reporting Data Point: (50,345)
+  o Reporting Data Point: (87,330)
+  o Reporting Data Point: (198,370)
+  o Reporting Data Point: (310,100)
+  o Reporting Data Point: (412,440)
+  o Reporting Data Point: (500,500)
+  o Reporting Data Point: (310,220)
+  o Reporting Data Point: (410,100)
